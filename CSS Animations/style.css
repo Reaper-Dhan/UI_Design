@@ -1,0 +1,112 @@
+body {
+    padding: 20px;
+    animation: body 10s infinite;
+}
+
+@keyframes body {
+    0% {
+        background-color: gold;
+        border: rgb(195, 0, 255) 7px;
+        border-style: double dashed;
+    }
+    25% {
+        background-color: aquamarine;
+        border: red 7px;
+        border-style: double dashed;
+    }
+    50% {
+        background-color: rgba(0, 0, 0, 0.946);
+        border: rgb(89, 243, 243) 7px;
+        border-style: double dashed;
+    }
+    75% {
+        background-color: lightgreen;
+        border: red 7px;
+        border-style: double dashed;
+    }
+    100% {
+        background-color: gold;
+        border: rgb(195, 0, 255) 7px;
+        border-style: double dashed;
+    }
+}
+
+h1 {
+    animation: head 10s infinite;
+}
+
+@keyframes head {
+    0% {
+        color: rgb(110, 54, 17);
+        text-shadow: 2px 2px rgb(110, 54, 17);
+    }
+    25% {
+        color: rgba(6, 6, 101, 0.843);
+        text-shadow: 2px 2px rgba(6, 6, 101, 0.843);
+    }
+    50% {
+        color: rgb(194, 245, 235);
+        text-shadow: 2px 2px rgb(194, 245, 235);
+    }
+    75% {
+        color: rgb(1, 83, 1);
+        text-shadow: 2px 2px rgb(1, 83, 1);
+    }
+    100% {
+        color: rgb(110, 54, 17);
+        text-shadow: 2px 2px rgb(110, 54, 17);
+    }
+}
+
+marquee {
+    width: 85%;
+    animation: scroll 10s infinite;
+}
+
+@keyframes scroll {
+    0% {
+        color: rgb(110, 54, 17);
+    }
+    25% {
+        color: rgba(6, 6, 101, 0.843);
+    }
+    50% {
+        color: rgb(194, 245, 235);
+    }
+    75% {
+        color: rgb(1, 83, 1);
+    }
+    100% {
+        color: rgb(110, 54, 17);
+    }
+}
+
+table,
+tr,
+td,
+th {
+    animation: rail 10s infinite;
+}
+
+@keyframes rail {
+    0% {
+        border: 2px double rgb(195, 0, 255);
+        color: rgb(110, 83, 14)
+    }
+    25% {
+        border: 2px double red;
+        color: rgba(6, 6, 101, 0.843);
+    }
+    50% {
+        border: 2px double rgb(36, 255, 255);
+        color: white;
+    }
+    75% {
+        border: 2px double red;
+        color: rgb(1, 83, 1);
+    }
+    100% {
+        border: 2px double rgb(195, 0, 255);
+        color: rgba(172, 100, 33, 0.904);
+    }
+}

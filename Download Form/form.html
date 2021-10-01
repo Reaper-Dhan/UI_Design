@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<body background="./form_bg.png">
+    <br>
+    <h1 style="color:azure">
+        <center>DOWNLOAD YOUR GUIDE NOW</center>
+    </h1><br><br>
+    <table color="red">
+        <form color="red">
+            <center>
+                <label for="First Name" style="color:white"><b>First Name</b><mark.aqua style="color:red"> *</mark></label><br>
+                <input class="forms" type="text" size="50" required><br><br>
+                <label for="Last Name" style="color:white"><b>Last Name<mark.aqua style="color:red"> *</mark></b></label><br>
+                <input class="forms" type="text" size="50" required><br><br>
+                <label for="Email" style="color:white"><b>Email<mark.aqua style="color:red"> *</mark></b></label><br>
+                <input class="forms" type="text" size="50" required><br><br>
+                <label for="Phone Number" style="color:white"><b>Phone Number<mark.aqua style="color:red"> *</mark></b></label><br>
+                <input class="num" type="integer" size="10" required><br><br>
+                <label for="Company Name" style="color:white"><b>Company Name<mark.aqua style="color:red"> *</mark></b> </label><br>
+                <input class="forms" type="text" size="50" required><br><br>
+                <label for="Employees Name" style="color:white"><b>How many employees are there?<mark.aqua style="color:red"> *</mark></b></label><br>
+                <select class="dropdown1" name="dropdown">
+                <option class="options" value="range0" selected>- Please Select -</option>
+                <option class="options" value = "range1">1-1000</option>
+                <option class="options" value = "range2">1001-5000</option>
+                <option class="options" value = "range3">5001-10000</option>
+                <option class="options" value = "range4">10001-20000</option>
+                <option class="options" value = "range5">20001-50000</option>
+                <option class="options" value = "range6">50001+</option>
+            </select><br><br>
+                <label for="Website URL" style="color:white"><b>Website URL<mark.aqua style="color:red"> *</mark></b></label><br>
+                <input class="forms" type="text" size="50" required><br><br>
+            </center>
+            <label for="Sell" style="color:white"><b><center>Does your company sell any of the following services:</center></b>
+            <ul class="dash">
+                    <li>- Web design</li>
+                    <li>- Online Marketing</li>
+                    <li>- SEO/SEM</li>
+                    <li>- Advertising agency services<mark.aqua style="color:red"> *</mark></label><br></li>
+            </ul>
+            <center>
+                <select class="dropdown2" name="dropdown">
+                <option value="opt0" selected>- Please Select -</option>
+                <option value = "opt1">Web Design</option>
+                <option value = "opt2">Online Marketing</option>
+                <option value = "opt3">SEO/SEM</option>
+                <option value = "opt4">Advertising agency services</option>
+                <option value = "opt5">Others</option>
+                </select><br><br>
+                <input type="checkbox">
+                <label for="subscribe">Subscribe to HubSpot's marketing blog</label><br>
+            </center>
+        </form>
+    </table>
+    <br>
+    <br>
+    <center>
+        <button type="button">Download Now</button>
+    </center>
+</body>
+
+</html>
+
+<style>
+    ul {
+        padding-left: 120px;
+        padding-left: 38%;
+    }
+    
+    ul li {
+        list-style: none;
+    }
+    
+    .dash {
+        width: 50%;
+        text-align: left;
+    }
+    
+    button {
+        background-color: rgba(0, 42, 255, 0.619);
+        color: white;
+        padding: 10px 70px;
+        text-align: center;
+    }
+    
+    select.dropdown1 {
+        width: 350px;
+        padding: 3px;
+    }
+    
+    select.dropdown2 {
+        width: 350px;
+        padding: 3px;
+    }
+    
+    input.num {
+        padding: 2px 130px;
+    }
+    
+    input {
+        text-align: center;
+    }
+</style>
