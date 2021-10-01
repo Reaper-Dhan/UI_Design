@@ -16,6 +16,8 @@
     <section>
         <p id="coord"></p>
     </section>
+    <br>
+    <br>
     <img src="./World Map.jpg" width="960" height="492" alt="World Map" usemap="#worldmap" onmousemove="showCoords(event)">
     <map name="worldmap">
         <area shape="rect" coords="184, 36, 272, 158" alt="north america" href="" onclick="na()">
@@ -31,6 +33,7 @@
         <area shape="rect" coords="882, 400, 930, 341" alt="newzealand" href="" onclick="nz()">
         <area shape="rect" coords="249, 463, 760, 488" alt="antartica" href="" onclick="antartica()">
     </map>
+    <br>
     <br>
     <script>
         function showCoords(event) {
@@ -185,11 +188,6 @@
             }
         }
     </script>
-    <footer>
-        <section style="background-color: black; color: white; text-align: center; padding: 2%;">
-            World Map &copy
-        </section>
-    </footer>
 </body>
 
 </html>
@@ -213,15 +211,10 @@
     
     p {
         background-color: tomato;
-        padding: 1%;
+        padding: 0.25em;
         width: 100%;
         min-height: 25px;
         margin-top: 0;
         margin-bottom: 9px;
         text-align: center;
-    }
-    
-    @import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
-    footer {
-        font-family: 'Reggae One', cursive;
     }
