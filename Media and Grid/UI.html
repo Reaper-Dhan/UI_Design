@@ -5,11 +5,126 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <title>UI Design</title>
 </head>
 
-<body>
+<body style="background-color: #a0d4f7;">
+    <div class="grid-container">
+        <div class="item1"><b>User Interface Design</b></div>
+        <div class="item2">
+            <h4> Types of UI </h4>
+            <br>
+            <ul>
+                <li>Command Line Interface</li>
+                <li> <br></li>
+                <li>Menu-Driven Interface</li>
+                <li> <br></li>
+                <li>Graphical User Interface</li>
+                <li> <br></li>
+                <li>Touchscreen Graphical User Interface</li>
+                <li> <br></li>
+                <li>Conversation User Interface</li>
+            </ul>
+        </div>
+        <div class="item3">
+            <h4>What is UI design?</h4>
+            <p>The user interface (UI) is the point at which human users interact with a computer, website or application. The goal of effective UI is to make the user's experience easy and intuitive, requiring minimum effort on the user's part to receive
+                maximum desired outcome. UI is created in layers of interaction that appeal to the human senses (sight, touch, auditory and more). They include both input devices like keyboard, mouse, trackpad, microphone, touch screen, fingerprint scanner,
+                e-pen and camera and output devices like monitors, speakers and printers. Devices that interact with multiple senses are called "multimedia user interfaces". For example, everyday UI uses a combination of tactile input (keyboard and mouse)
+                and a visual and auditory output (monitor and speakers)
+            </p>
+        </div>
+        <div class="item4">
+            <h4>Why is user interface important?</h4>
+            <p>User interface is important to meet user expectations and support the effective functionality of your site. A well-executed user interface facilitates effective interaction between the user and the program, app or machine through contrasting
+                visuals, clean design and responsiveness. When designing a UI for your site, it's important to consider the user's expectations in terms of accessibility, visual aesthetic and ease of use. An optimal mix of effective visuals and efficient
+                responsiveness will improve your site's conversion rates, as it anticipates the needs of the user and then satisfies those needs.</p>
+
+        </div>
+
+    </div>
+    <footer>Amrita Vishwa Vidhyapeetham &copy;</footer>
 
 </body>
 
 </html>
+<style>
+    * {
+        margin: 0;
+    }
+    
+    h4 {
+        font-size: 25px;
+        padding: 20px;
+        font-family: 'Rock Salt', cursive;
+    }
+    
+    .item1 {
+        grid-area: header;
+        background-color: rgba(255, 42, 42, 0.8);
+        font-family: 'Pacifico', cursive;
+    }
+    
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    li {
+        font-size: 22px;
+        font-family: 'Indie Flower', cursive;
+        font-weight: bold;
+    }
+    
+    .item2 {
+        grid-area: menu;
+        background-color: aquamarine;
+    }
+    
+    p {
+        font-size: 18px;
+        max-width: fit-content;
+        padding: 20px;
+        float: left;
+        font-family: 'Indie Flower', cursive;
+        font-weight: bold;
+    }
+    
+    .item3 {
+        grid-area: main;
+        background-color: yellow;
+    }
+    
+    .item4 {
+        grid-area: right;
+        background-color: blue;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template: 'header header header header header header' 'menu main main main right right';
+        grid-gap: 10px;
+        background-color: #a0d4f7;
+        padding: 10px;
+    }
+    
+    .grid-container>div {
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+    }
+    
+    footer {
+        padding: 1em;
+        background: #000;
+        color: #fff;
+        text-align: center;
+        padding: 40px;
+        font-size: 23px;
+    }
+</style>
